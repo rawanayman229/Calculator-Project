@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(5, 37, 85);
+    box-shadow: 0px 30px 60px 1px rgba(187, 201, 248, 0.589);
+}
+input:focus {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(34, 34, 34, 0.589);
+    border: 1px solid rgb(5, 37, 85);
+    outline: none;
+}
+input {
+    background-color: rgba(83, 83, 83, 0.637);
+    border-radius: 5px;
+    text-align: right;
+    margin: 3px;
+    padding: 7px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 300;
+    background-color:transparent;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    border: 1px solid  rgb(5, 37, 85);
+}
+button:hover {
+    cursor: pointer;
+    color: rgb(54, 53, 53);
+}
+button:active {
+    box-shadow: 5px 5px 40px 1px rgba(119, 119, 119, 0.589);
+}
+
+.fav {
+    color:rgb(10, 70, 160);
+}
+.fav:hover {
+    color: rgb(4, 24, 54) ;
+}
+.assign {
+    width: 118px;
+    background-color: rgba(75, 147, 255, 0.418);
+    font-weight: 700;
+    }
+    
+    .assign {
+        color: rgb(134, 224, 134);
+    }
+
+    
